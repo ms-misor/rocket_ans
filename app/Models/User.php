@@ -11,9 +11,11 @@ use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Sanctum\HasApiTokens;
 use Modules\Auth\Traits\HasProfilePhoto;
 use Spatie\Permission\Traits\HasRoles;
+use PHPOpenSourceSaver\JWTAuth\Contracts\JWTSubject;
 
-class User extends Authenticatable
+class User extends Authenticatable implements JWTSubject
 {
+    
     use HasApiTokens;
     use HasFactory;
     use Notifiable;
@@ -22,6 +24,7 @@ class User extends Authenticatable
     use HasRoles;
     use TwoFactorAuthenticatable;
     use HasProfilePhoto;
+
 
     protected static $cacheKey = '_users_';
 
@@ -115,5 +118,26 @@ class User extends Authenticatable
     public function favTemplate()
     {
         return $this->belongsToMany(Template::class, 'user_fav_template', 'template_id', 'user_id');
+    }
+
+
+    /**
+     * Get the identifier that will be stored in the subject claim of the JWT.
+     *
+     * @return mixed
+     */
+    public function getJWTIdentifier()
+    {
+        return $this->getKey();
+    }
+
+    /**
+     * Return a key value array, containing any custom claims to be added to the JWT.
+     *
+     * @return array
+     */
+    public function getJWTCustomClaims()
+    {
+        return [];
     }
 }
