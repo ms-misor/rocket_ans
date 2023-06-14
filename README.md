@@ -1,19 +1,19 @@
-<p align="center"><a href="https://iqbalhasan.dev target="_blank"><img src="./resources/assets/admin-assets/img/logo.png" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://www.facebook.com/tuhin.bu/" target="_blank"><img src="./resources/assets/admin-assets/img/logo.png" width="400" alt="Laravel Logo"></a></p>
 
 ## About Laravel
 
-Aiguru is an innovative app that harnesses the power of OpenAI's API to perform a wide range of tasks. From generating human-like text to providing insightful recommendations, Aiguru is an all-in-one solution for users looking to streamline their workflow and maximize their productivity.
+roketanswer is an innovative app that harnesses the power of OpenAI's API to perform a wide range of tasks. From generating human-like text to providing insightful recommendations, roketanswer is an all-in-one solution for users looking to streamline their workflow and maximize their productivity.
 
--   Empowering your knowledge with <b>AI Guru.</b>
--   Discover the potential of AI with <b>AI Guru.</b>
--   Unlock the power of AI with <b>AI Guru.</b>
--   Your guide to mastering AI - <b>AI Guru.</b>
--   Experience the future of learning with <b>AI Guru.</b>
--   Transform your skills with <b>AI Guru.</b>
--   Empower your career with <b>AI Guru.</b>
--   Learn the skills of tomorrow with <b>AI Guru.</b>
--   Your personal AI tutor - <b>AI Guru.</b>
--   AI made easy with <b>AI Guru.</b>
+-   Empowering your knowledge with <b>Roket Answer.</b>
+-   Discover the potential of AI with <b>Roket Answer.</b>
+-   Unlock the power of AI with <b>Roket Answer.</b>
+-   Your guide to mastering AI - <b>Roket Answer.</b>
+-   Experience the future of learning with <b>Roket Answer.</b>
+-   Transform your skills with <b>Roket Answer.</b>
+-   Empower your career with <b>Roket Answer.</b>
+-   Learn the skills of tomorrow with <b>Roket Answer.</b>
+-   Your personal AI tutor - <b>Roket Answer.</b>
+-   AI made easy with <b>Roket Answer.</b>
 
 # How To Install
 
@@ -32,7 +32,7 @@ Before installing the this project, we need to make sure that our system has all
 To clone the app, following command:
 
 ```bash
-git clone https://iqbalbdtask@bitbucket.org/bdtask-jamshed2/aiguru.git
+git clone https://github.com/tuhinsorker/roketanswer.git
 ```
 
 ## Step 3: Go To project directory and composer install
@@ -40,7 +40,7 @@ git clone https://iqbalbdtask@bitbucket.org/bdtask-jamshed2/aiguru.git
 -   first go to the project directory
 
 ```bash
-cd aiguru
+cd roketanswer
 ```
 
 -   Then copy the .env.example file to .env
@@ -81,7 +81,7 @@ php artisan storage:link
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=aiguru
+DB_DATABASE=roketanswer
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -114,4 +114,4 @@ INVISIBLE_RECAPTCHA_SECRETKEY='6LeOdadaGLUkAAAAAK3pEgkOJrpuSuGIhrNYTKm8XGKR'
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within This Project, please send an e-mail to <a href="https://iqbalhasan.dev" target="_blank">IQBAL HASAN</a> via [support@iqbalhasan.dev](mailto:support@iqbalhasan.dev). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within This Project, please send an e-mail to <a href="https://www.facebook.com/tuhin.bu/" target="_blank">Md Tuhin Sarker</a> via [admin@gmail.com](mailto:admin@gmail.com). All security vulnerabilities will be promptly addressed.
